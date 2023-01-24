@@ -5,6 +5,26 @@ J'écris en vrac mes pratiques, écrites à la première personne.  Celles-ci ne
 
 Tu peux en savoir plus sur [mon contexte, ici](#mon-contexte).
 
+  - [Mes pratiques](#mes-pratiques)
+    - [Je n'utilise que des technos que je maitrise déjà](#je-nutilise-que-des-technos-que-je-maitrise-déjà)
+      - [Je ne laisse pas ma curiosité, ma recherche de beauté ou de perfection, me détourner des besoins de l'équipe (c'est dur !).](#je-ne-laisse-pas-ma-curiosité-ma-recherche-de-beauté-ou-de-perfection-me-détourner-des-besoins-de-léquipe-cest-dur-)
+      - [Je n'utilise pas de framework](#je-nutilise-pas-de-framework)
+      - [Je n'utilise pas d'ORM.](#je-nutilise-pas-dorm)
+      - [Je privilégie du code interne aux petites libs npm](#je-privilégie-du-code-interne-aux-petites-libs-npm)
+    - [J'optimise pour le changement](#joptimise-pour-le-changement)
+      - [Je vise des boucles de feedback courtes](#je-vise-des-boucles-de-feedback-courtes)
+      - [J'utilise des types pour m'aider à refactorer](#jutilise-des-types-pour-maider-à-refactorer)
+      - [Je réduis le scope de mes changements de code](#je-réduis-le-scope-de-mes-changements-de-code)
+    - [J'évite d'optimiser l'archi / le code trop tot](#jévite-doptimiser-larchi--le-code-trop-tot)
+      - [Je persiste mes données dans le format le plus basique](#je-persiste-mes-données-dans-le-format-le-plus-basique)
+      - [Je commence simple pour les interfaces graphiques](#je-commence-simple-pour-les-interfaces-graphiques)
+      - [J'applique des patterns sans les nommer ou même les connaitre](#japplique-des-patterns-sans-les-nommer-ou-même-les-connaitre)
+    - [J'évite d'optimiser les performances trop tot](#jévite-doptimiser-les-performances-trop-tot)
+      - [Je garde en tête que les utilisateurs sont plus patients que ce que je crois](#je-garde-en-tête-que-les-utilisateurs-sont-plus-patients-que-ce-que-je-crois)
+      - [Je n'optimise que ce que j'ai mesuré](#je-noptimise-que-ce-que-jai-mesuré)
+  - [Mon contexte](#mon-contexte)
+
+
 ## Mes pratiques
 
 ### Je n'utilise que des technos que je maitrise déjà
