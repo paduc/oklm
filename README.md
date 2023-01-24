@@ -44,7 +44,11 @@ J'ai d'autres projets "terrains de jeu" pour m'amuser avec des nouvelles technos
 
 #### Je n'utilise pas de framework
 
-Par là, j'entends dépendance extérieure qui impose de l'inversion de contrôle. Je considère que Express et React ne sont pas des framework. Je considère de Next, Nest et Remix sont des frameworks. Ils ont un coût caché pour toutes les abstractions qu'ils apportent, et on finit forcément par le payer, même le prix des abstractions qui ne me concernent pas.
+Par là, j'entends dépendance extérieure qui impose de l'inversion de contrôle. Je considère que Express et React ne sont pas des framework. Je considère de Next, Nest et Remix sont des frameworks. Ils ont un coût caché pour toutes les abstractions qu'ils apportent, et je finis toujours par le payer, même le prix des abstractions qui ne me concernent pas.
+
+En général, les frameworks mettent en avant une liste longue comme le bras de modules inclus. Mais je n'ai pratiquement jamais besoin de ces modules donc ce n'est pas comme si l'alternative était de le coder moi-même.  
+
+J'ai confiance dans ma capacité de faire simple.
 
 #### Je n'utilise pas d'ORM.
 
