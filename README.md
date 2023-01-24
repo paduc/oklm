@@ -3,21 +3,26 @@
 
 J'écris en vrac mes pratiques, écrites à la première personne.  Celles-ci ne sont pas des conseils, plutôt des notes pour moi-même, mais libre à toi de t'en inspirer.
 
-Tu peux en savoir plus sur [mon contexte, ici](#contexte).
+Tu peux en savoir plus sur [mon contexte, ici](#mon-contexte).
 
 ## Mes pratiques
 
 ### J'optimise pour le changement
-Mes produits vivent dans l'incertitude.  
+Mes produits vivent dans l'incertitude. 
 Toutes ses fonctionnalités (et donc le code correspondant) peuvent disparaitre ou changer du jour au lendemain. Je m'assure que l'investissement n'est pas trop grand.
 
 #### Je vise des boucles de feedback courtes
+Je suis plus serein quand j'ai un retour rapide pour savoir si ce que j'ai codé fonctionne ou pas. L'idéal serait en continu (immédiat) mais j'accepte jusqu'à 2 ou 3 minutes en moyenne.
 
+Cf. Tests automatiques, Storybook
 
 #### Je réduis le scope de mes changements de code
+Je découple les parties qui ont des responsabilités isolées pour pouvoir les coder/tester/livrer/déployer séparément.
+
+Cf. Feature flags, découplage, ...
 
 
-## Contexte
+## Mon contexte
 - J'ai occupé des positions de CEO, CPO, CTO ou Tech Lead
   - Développement Fullstack
   - Feature team
