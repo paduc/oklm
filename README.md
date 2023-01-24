@@ -51,12 +51,20 @@ Je suis plus serein quand j'ai un retour rapide pour savoir si ce que j'ai codé
 
 Cf. Tests automatiques, Storybook
 
+#### J'utilise des types pour m'aider à refactorer
+
+Je me sers des types comme une annotation sur les différentes parties de mon code. Ceci me donne directement dans l'IDE des gardes-fous: si je modifie une partie de mon code et que celle-ci ne respecte plus une contrainte que j'ai établi dans une autre partie, mon IDE va me prévenir pour que je résolve cette incohérence.
+
+Cette pratique me permet aussi d'écrire moins de tests. Comme j'ai imposé des contraintes en amont, j'ai moins de cas à tester.
+
+C'est une extension de mon environnement de développement.
+
 #### Je réduis le scope de mes changements de code
 Je découple les parties qui ont des responsabilités isolées pour pouvoir les coder/tester/livrer/déployer séparément.
 
 Cf. Feature flags, découplage, ...
 
-### J'évite d'optimiser trop tot
+### J'évite d'optimiser l'archi / le code trop tot
 
 Ca pourrait être une suite de l'optimisation pour le changement.
 
@@ -95,11 +103,7 @@ Je ne mentionne pas ces noms de patterns dans les noms de dossiers, de fichiers,
 J'ai remarqué que leur mention a un effet contre-productif, parce que nous avons tous été bassinés avec des acronymes ad nauseam. Je préfère laisser parler le code et expliquer pour quelles raisons je l'ai fait comme ça. 
 
 
-### Je n'optimise que ce que j'ai mesuré
-
-Quand on arrive à de l'optimisation des performances - ce qui doit arriver plus tard que tôt dans le cycle de développement - je m'attends à avoir un indicateur quantitatif qui mesure ce que je veux optimiser.  
-
-Par exemple, si nous avons des retours utilisateurs comme quoi une page s'affiche lentement.
+### J'évite d'optimiser les performances trop tot
 
 #### Je garde en tête que les utilisateurs sont plus patients que ce que je crois
 
@@ -108,6 +112,16 @@ J'ai remarqué qu'un temps de réponse de 500ms ou même plusieurs secondes ne d
 J'ai lu quelque part ([ici?](https://www.fasterize.com/fr/vitesse-chargement-chiffres-cles-web-performance/)) que le temps de chargement d'une page est le critère #1 en terme d'UX. Ca ne correspond pas à mes observations (rappel: [je n'ai jamais fait de e-commerce](#mon-contexte)).
 
 Je pense que la compréhension des besoins utilisateurs est le sujet le plus important.
+
+#### Je n'optimise que ce que j'ai mesuré
+
+Quand on arrive à de l'optimisation des performances, je m'attends à avoir un indicateur quantitatif qui mesure ce que je veux optimiser.  
+
+Par exemple, si nous avons des retours utilisateurs comme quoi une page s'affiche lentement, mon premier réflexe est de mesurer ce qui prend du temps entre la requête et l'affichage. Ceci me permet de voir ce qui prend le plus de temps et déterminer le retour sur investissement de l'optimisation.
+
+Je ne me lance en aucun cas dans des chantiers d'optimisation à l'aveugle. En faisant cela, je n'aurais pas de boucle de retroaction et ne saurais pas dire si mes changements ont un impact ou pas.
+
+Cf. Optimisation au niveau des requêtes (projections), taille du bundle front, temps d'hydratation, ...
 
 ## Mon contexte
 - J'ai occupé des positions de CEO, CPO, CTO ou Tech Lead
